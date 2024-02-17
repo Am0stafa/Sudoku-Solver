@@ -51,7 +51,7 @@ export async function solveGrid(grid, setGrid) {
       setGrid(newGrid);
       await sleep(window.solveSpeed);
       if (await solveGrid(grid, setGrid)) {
-        //recursivly check new grid, if new grid is full then returns true SOlution Found
+        //recursively check new grid, if new grid is full then returns true SOlution Found
         return true;
       } else {
         //try again with new number
