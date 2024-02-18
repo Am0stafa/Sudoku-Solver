@@ -2,6 +2,8 @@
 
 This project is a web-based application that visualizes the backtracking algorithm used to solve Sudoku puzzles. It's built using React and styled-components, providing an interactive and visually appealing way to understand how backtracking works in solving Sudoku.
 
+## try out
+
 ## Features
 
 - **Sudoku Puzzle Generation**: Utilizes the [sudoku](file:///Users/abdomostafa/Sudoku-Solver/package.json#2%2C12-2%2C12) npm package to generate a new puzzle each time the application is loaded.
@@ -38,7 +40,7 @@ This project is a web-based application that visualizes the backtracking algorit
 - **Utilities**:
   - `util.js`: Contains the [solveGrid](file:///Users/abdomostafa/Sudoku-Solver/src/App.js#6%2C21-6%2C21) function implementing the backtracking algorithm and the [checkGrid](file:///Users/abdomostafa/Sudoku-Solver/src/App.js#6%2C10-6%2C10) function for validating the puzzle.
 
-## Setup and Running
+## Setup and Running locally
 
 1. Clone the repository.
 2. Install dependencies:
